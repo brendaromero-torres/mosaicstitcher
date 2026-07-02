@@ -90,13 +90,7 @@ The top-level `manifest.json` additionally includes `tile_size` (the requested s
 
 All of this is bundled into a single `mosaic_tiles_{tile_size}px.zip` for download.
 
-## Hosting on Streamlit Community Cloud
 
-1. Push `app.py` and `requirements.txt` to a GitHub repo (public or private).
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. Click **New app**.
-4. Choose your repository, the branch (e.g. `main`), and the main file path (`app.py`).
-5. Click **Deploy**.
 
 Streamlit Cloud reads `requirements.txt` automatically and installs everything before starting the app. First deploy can take a few minutes since `torch` and `kornia` are large.
 
