@@ -1,0 +1,7 @@
+streamlit
+opencv-python-headless
+torch
+kornia
+Pillow
+numpy
+tifffile
